@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="personneDAO" class="com.sqli.formation.dao.impl.JdbcPersonneDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="personneSimpleDAO" class="com.sqli.formation.dao.impl.SimpleJdbcPersonneDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+</beans>

@@ -1,0 +1,6 @@
+com\sqli\formation\dao\impl\StockDaoImpl.class
+com\sqli\formation\model\Stock.class
+com\sqli\formation\bo\StockBo.class
+com\sqli\formation\App.class
+com\sqli\formation\bo\impl\StockBoImpl.class
+com\sqli\formation\dao\StockDao.class

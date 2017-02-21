@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-basic-orm-annotation"/>
+<aop-project name=" spring-basic-jdbc"/>
+<aop-project name=" spring-basic-jdbc-tx"/>
+<aop-project name="spring-basic-orm"/>
+<aop-project name="spring-basic-jdbc-support"/>
+</aop-reference-model>
